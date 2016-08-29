@@ -1,0 +1,9 @@
+<h1>All Characters</h1>
+
+<ul>
+  <% @characters.each do |u| %>
+    <li>
+      <%= link_to( c.name, character_path(c.id) ) %>
+    </li>
+  <% end %>
+</ul>

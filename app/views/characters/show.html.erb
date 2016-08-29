@@ -1,0 +1,26 @@
+<h1><%= @character.name %></h1>
+
+<ul>
+  <% @race.attributes.each do |k,v| %>
+    <% unless k == "id" || k == "updated_at" || k == "created_at" %>
+      <li><%= k.titleize %>: <%= v.titleize %> </li>
+    <% end %>
+  <% end %>
+
+  <hr>
+
+  <% @profession.attributes.each do |k,v| %>
+    <% unless k == "id" || k == "updated_at" || k == "created_at" || k == "start_hit_points"%>
+      <li><%= k.titleize %>: <%= v.titleize %> </li>
+    <% end %>
+  <% end %>
+  Starting Hit points: <%= @profession.start_hit_points %>
+</ul>
+
+
+<% if @current_character && @current_character.id == @character.id %>
+  <div class="character_controls">
+    <%= link_to "Edit", edit_character_path( @character.id ) %>
+    <%= link_to "Delete Character", character_path( @character.id ), :method => :delete, :data => { :confirm => "Are you sure?"}%>
+  </div>
+<% end %>

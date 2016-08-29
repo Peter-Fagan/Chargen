@@ -1,0 +1,15 @@
+
+<%= form_for @character do |f| %>
+  <p>
+    <%= f.label :name %>
+    <%= f.text_field :name, :required => true %>
+  </p>
+  <p>
+    <%= f.collection_select(:race_id, Race.all, :id, :name) %>
+  </p>
+  <p>
+    <%= f.collection_select(:profession_id, Profession.all, :id, :name) %>
+  </p>
+
+  <%= f.submit "Submit" %>
+<% end %>

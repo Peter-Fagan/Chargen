@@ -6,7 +6,7 @@
 </ul>
 
 <% if @current_user && @current_user.id == @user.id %>
-  <div class="controls">
+  <div class="user_controls">
     <%= link_to "Edit", edit_user_path( @user.id ) %>
     <%= link_to "Delete Account", user_path( @user.id ), :method => :delete, :data => { :confirm => "Are you sure?"}%>
   </div>
@@ -14,3 +14,11 @@
 
 <!-- A list of all user mixtapes -->
 <h3>Characters</h3>
+
+<% @user.characters.each do |m| %>
+  <p><%= m.name %></p>
+<% end %>
+
+<div class="character_controls">
+  <%= link_to "New Character", new_character_path() %>
+</div>
