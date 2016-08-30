@@ -13,6 +13,6 @@
 
 class User < ActiveRecord::Base
   has_secure_password
-  belongs_to :collections
-  has_many :characters, :through => :collections
+  has_one :collection
+  has_many :characters, :through => :collection
 end

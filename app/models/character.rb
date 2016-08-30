@@ -15,5 +15,5 @@ class Character < ActiveRecord::Base
   belongs_to :race
   belongs_to :profession
   belongs_to :collection
-
+  has_one :user, :through => :collection
 end

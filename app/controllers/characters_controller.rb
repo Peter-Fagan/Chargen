@@ -1,4 +1,5 @@
 class CharactersController < ApplicationController
+  
   def index
     @characters = Character.all
   end
@@ -14,7 +15,9 @@ class CharactersController < ApplicationController
   end
 
   def create
+    collection = @current_user.collection
     character = Character.create character_params
+    collection.characters << character
     redirect_to character
   end
 

@@ -17,10 +17,8 @@
   Starting Hit points: <%= @profession.start_hit_points %>
 </ul>
 
-
-<% if @current_character && @current_character.id == @character.id %>
   <div class="character_controls">
+    <%= link_to "All Characters", user_path(@current_user) %>
     <%= link_to "Edit", edit_character_path( @character.id ) %>
     <%= link_to "Delete Character", character_path( @character.id ), :method => :delete, :data => { :confirm => "Are you sure?"}%>
   </div>
-<% end %>

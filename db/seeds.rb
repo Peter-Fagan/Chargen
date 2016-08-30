@@ -9,13 +9,9 @@ p u1
 
 Collection.destroy_all
 
-m1 = Collection.create :name => "Pete"
-m2 = Collection.create :name => "Wolf"
-m3 = Collection.create :name => "Badger"
-
-u1.collections << m1
-u2.collections << m2
-u3.collections << m3
+m1 = Collection.create :user_id => u1.id
+m2 = Collection.create :user_id => u2.id
+m3 = Collection.create :user_id => u3.id
 
 Race.destroy_all
 
