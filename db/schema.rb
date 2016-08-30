@@ -11,19 +11,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160829231756) do
+ActiveRecord::Schema.define(version: 20160830042907) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "backgrounds", force: :cascade do |t|
+    t.string   "name"
+    t.text     "description"
+    t.string   "background_skills"
+    t.string   "background_languages"
+    t.text     "background_equipment"
+    t.text     "feature"
+    t.text     "characteristics"
+    t.string   "personality_trait"
+    t.string   "ideal"
+    t.string   "bond"
+    t.string   "flaw"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+  end
 
   create_table "characters", force: :cascade do |t|
     t.string   "name"
     t.integer  "race_id"
     t.integer  "profession_id"
-    t.text     "background"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
     t.integer  "collection_id"
+    t.integer  "background_id"
   end
 
   create_table "collections", force: :cascade do |t|

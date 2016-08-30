@@ -6,9 +6,10 @@
 #  name          :string
 #  race_id       :integer
 #  profession_id :integer
-#  background    :text
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
+#  collection_id :integer
+#  background_id :integer
 #
 
 require 'test_helper'

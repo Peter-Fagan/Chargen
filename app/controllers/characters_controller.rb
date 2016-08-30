@@ -1,5 +1,5 @@
 class CharactersController < ApplicationController
-  
+
   def index
     @characters = Character.all
   end
@@ -8,6 +8,7 @@ class CharactersController < ApplicationController
     @character = Character.find params[:id]
     @race = @character.race
     @profession = @character.profession
+    @background = @character.background
   end
 
   def new
@@ -39,6 +40,6 @@ class CharactersController < ApplicationController
 
   private
     def character_params
-      params.require(:character).permit(:name, :race_id, :profession_id)
+      params.require(:character).permit(:name, :race_id, :profession_id, :background_id)
     end
 end
