@@ -3,7 +3,7 @@
 <ul>
   <% @race.attributes.each do |k,v| %>
     <% unless k == "id" || k == "updated_at" || k == "created_at" %>
-      <li><%= k.titleize %>: <%= v %> </li>
+      <li><%= k.titleize %>: <%= raw(v) %> </li>
     <% end %>
   <% end %>
 
@@ -11,7 +11,7 @@
 
   <% @profession.attributes.each do |k,v| %>
     <% unless k == "id" || k == "updated_at" || k == "created_at" %>
-      <li><%= k.titleize %>: <%= v %> </li>
+      <li><%= k.titleize %>: <%= raw(v) %> </li>
     <% end %>
   <% end %>
 
@@ -19,7 +19,7 @@
 
   <% @background.attributes.each do |k,v| %>
     <% unless k == "id" || k == "updated_at" || k == "created_at" %>
-      <li><%= k.titleize %>: <%= v %> </li>
+      <li><%= k.titleize %>: <%= raw(v) %> </li>
     <% end %>
   <% end %>
 

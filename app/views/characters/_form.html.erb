@@ -4,14 +4,23 @@
     <%= f.label :name %>
     <%= f.text_field :name, :required => true %>
   </p>
+
+  <br>
+
   <p>
-    <%= f.collection_select(:race_id, Race.all, :id, :name) %>
+    <%= f.collection_radio_buttons(:race_id, Race.all, :id, :name) %>
   </p>
+
+  <br>
+
   <p>
-    <%= f.collection_select(:profession_id, Profession.all, :id, :name) %>
+    <%= f.collection_radio_buttons(:profession_id, Profession.all, :id, :name) %>
   </p>
+
+  <br>
+  
   <p>
-    <%= f.collection_select(:background_id, Background.all, :id, :name) %>
+    <%= f.collection_radio_buttons(:background_id, Background.all, :id, :name) %>
   </p>
 
   <%= f.submit "Submit" %>
