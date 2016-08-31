@@ -17,5 +17,6 @@ class Character < ActiveRecord::Base
   belongs_to :race
   belongs_to :profession
   belongs_to :background
+  belongs_to :strdeco
   has_one :user, :through => :collection
 end

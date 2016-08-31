@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160830042907) do
+ActiveRecord::Schema.define(version: 20160830235901) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -74,6 +74,29 @@ ActiveRecord::Schema.define(version: 20160830042907) do
     t.text     "features"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
+  end
+
+  create_table "strdecos", force: :cascade do |t|
+    t.integer  "strength"
+    t.integer  "dexterity"
+    t.integer  "constitution"
+    t.integer  "intelligence"
+    t.integer  "wisdom"
+    t.integer  "charisma"
+    t.integer  "str_bonus"
+    t.integer  "dex_bonus"
+    t.integer  "con_bonus"
+    t.integer  "int_bonus"
+    t.integer  "wis_bonus"
+    t.integer  "cha_bonus"
+    t.integer  "str_save"
+    t.integer  "dex_save"
+    t.integer  "con_save"
+    t.integer  "int_save"
+    t.integer  "wis_save"
+    t.integer  "cha_save"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   create_table "users", force: :cascade do |t|
