@@ -1,13 +1,51 @@
 <h1><%= @character.name %></h1>
 
-<ul>
+<hr>
+<br>
+<div class=display_attributes>
+  <div class=leftColumn>
+    Attributes
+
+    <% @strdeco.attributes.each do |k,v| %>
+      <% if k == "strength" || k == "dexterity" || k == "constitution" || k == "Intelligence" || k == "wisdom" || k == "charisma" %>
+        <li><%= k.titleize %>: <%= raw(v) %></li>
+      <% end %>
+    <% end %>
+  </div>
+  <div class=middleColumn>
+    Attribute Bonus
+
+    <% @strdeco.attributes.each do |k,v| %>
+      <% if k == "str_bonus" || k == "dex_bonus" || k == "con_bonus" || k == "int_bonus" || k == "wis_bonus" || k == "cha_bonus" %>
+        <li><%= k.titleize %>: <%= raw(v) %></li>
+      <% end %>
+    <% end %>
+  </div>
+  <div class=rightColumn>
+    Save bonus
+
+    <% @strdeco.attributes.each do |k,v| %>
+      <% if k == "str_save" || k == "dex_save" || k == "con_save" || k == "int_save" || k == "wis_save" || k == "cha_save" %>
+        <li><%= k.titleize %>: <%= raw(v) %></li>
+      <% end %>
+    <% end %>
+  </div>
+  <br>
+  <%= button_to("Reroll", reroll_path(@character), :method => "get") %>
+</div>
+<br>
+<hr>
+<br>
+
   <% @race.attributes.each do |k,v| %>
-    <% unless k == "id" || k == "updated_at" || k == "created_at" %>
+    <% unless k == "id" || k == "updated_at" || k == "created_at" || k == "ability_increases"%>
       <li><%= k.titleize %>: <%= raw(v) %> </li>
     <% end %>
   <% end %>
 
-  <hr>
+<br>
+<hr>
+<br>
 
   <% @profession.attributes.each do |k,v| %>
     <% unless k == "id" || k == "updated_at" || k == "created_at" %>
@@ -15,15 +53,15 @@
     <% end %>
   <% end %>
 
-  <hr>
+<br>
+<hr>
+<br>
 
   <% @background.attributes.each do |k,v| %>
     <% unless k == "id" || k == "updated_at" || k == "created_at" %>
       <li><%= k.titleize %>: <%= raw(v) %> </li>
     <% end %>
   <% end %>
-
-</ul>
 
   <div class="character_controls">
     <%= link_to "All Characters", user_path(@current_user) %>

@@ -9,6 +9,14 @@ class CharactersController < ApplicationController
     @race = @character.race
     @profession = @character.profession
     @background = @character.background
+    @strdeco = @character.strdeco
+  end
+
+  def reroll
+    @character = Character.find params[:id]
+    @character.strdeco = Strdeco.generate_strdeco(@character)
+    @character.save
+    redirect_to @character
   end
 
   def new
@@ -18,6 +26,11 @@ class CharactersController < ApplicationController
   def create
     collection = @current_user.collection
     character = Character.create character_params
+
+    strdeco = Strdeco.generate_strdeco( character )
+
+    character.strdeco_id = strdeco.id
+
     collection.characters << character
     redirect_to character
   end
@@ -33,9 +46,10 @@ class CharactersController < ApplicationController
   end
 
   def destroy
+
     character = Character.find params[:id]
     character.destroy
-    redirect_to characters_path
+    redirect_to current_user
   end
 
   private
