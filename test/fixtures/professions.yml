@@ -13,6 +13,7 @@
 #  start_features   :text
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
+#  start_equipment  :text
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

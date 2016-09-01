@@ -1,70 +1,71 @@
-<h1><%= @character.name %></h1>
+<div class="container">
+  <h1><%= @character.name %></h1>
 
-<hr>
-<br>
-<div class=display_attributes>
-  <div class=leftColumn>
-    Attributes
+  <hr>
+  <div class="row">
+    <div class="col s4">
+      <h3>Attributes</h3>
 
-    <% @strdeco.attributes.each do |k,v| %>
-      <% if k == "strength" || k == "dexterity" || k == "constitution" || k == "Intelligence" || k == "wisdom" || k == "charisma" %>
-        <li><%= k.titleize %>: <%= raw(v) %></li>
+      <% @strdeco.attributes.each do |k,v| %>
+        <% if k == "strength" || k == "dexterity" || k == "constitution" || k == "intelligence" || k == "wisdom" || k == "charisma" %>
+          <li><%= k.titleize %>: <%= raw(v) %></li>
+        <% end %>
       <% end %>
-    <% end %>
-  </div>
-  <div class=middleColumn>
-    Attribute Bonus
+    </div>
 
-    <% @strdeco.attributes.each do |k,v| %>
-      <% if k == "str_bonus" || k == "dex_bonus" || k == "con_bonus" || k == "int_bonus" || k == "wis_bonus" || k == "cha_bonus" %>
-        <li><%= k.titleize %>: <%= raw(v) %></li>
-      <% end %>
-    <% end %>
-  </div>
-  <div class=rightColumn>
-    Save bonus
+    <div class="col s4">
+      <h3>Attribute Bonus</h3>
 
-    <% @strdeco.attributes.each do |k,v| %>
-      <% if k == "str_save" || k == "dex_save" || k == "con_save" || k == "int_save" || k == "wis_save" || k == "cha_save" %>
-        <li><%= k.titleize %>: <%= raw(v) %></li>
+      <% @strdeco.attributes.each do |k,v| %>
+        <% if k == "str_bonus" || k == "dex_bonus" || k == "con_bonus" || k == "int_bonus" || k == "wis_bonus" || k == "cha_bonus" %>
+          <li><%= k.titleize %>: <%= raw(v) %></li>
+        <% end %>
       <% end %>
-    <% end %>
+    </div>
+
+    <div class="col s4">
+      <h3>Save bonus</h3>
+
+      <% @strdeco.attributes.each do |k,v| %>
+        <% if k == "str_save" || k == "dex_save" || k == "con_save" || k == "int_save" || k == "wis_save" || k == "cha_save" %>
+          <li><%= k.titleize %>: <%= raw(v) %></li>
+        <% end %>
+      <% end %>
+    </div>
   </div>
   <br>
   <%= button_to("Reroll", reroll_path(@character), :method => "get") %>
+
+  <br>
+  <hr>
+    <h3><%= @race.name %></h3>
+    <% @race.attributes.each do |k,v| %>
+      <% unless k == "id" || k == "updated_at" || k == "created_at" || k == "name" || k == "ability_increases"%>
+        <li><%= k.titleize %>: <%= raw(v) %> </li>
+      <% end %>
+    <% end %>
+
+  <br>
+  <hr>
+    <h3><%= @profession.name %></h3>
+    <% @profession.attributes.each do |k,v| %>
+      <% unless k == "id" || k == "updated_at" || k == "created_at" || k == "name" %>
+        <li><%= k.titleize %>: <%= raw(v) %> </li>
+      <% end %>
+    <% end %>
+
+  <br>
+  <hr>
+    <h3><%= @background.name %></h3>
+    <% @background.attributes.each do |k,v| %>
+      <% unless k == "id" || k == "updated_at" || k == "created_at" || k == "name" %>
+        <li><%= k.titleize %>: <%= raw(v) %> </li>
+      <% end %>
+    <% end %>
+
+    <div class="character_controls">
+      <%= link_to "All Characters", user_path(@current_user) %>
+      <%= link_to "Edit", edit_character_path( @character.id ) %>
+      <%= link_to "Delete Character", character_path( @character.id ), :method => :delete, :data => { :confirm => "Are you sure?"}%>
+    </div>
 </div>
-<br>
-<hr>
-<br>
-
-  <% @race.attributes.each do |k,v| %>
-    <% unless k == "id" || k == "updated_at" || k == "created_at" || k == "ability_increases"%>
-      <li><%= k.titleize %>: <%= raw(v) %> </li>
-    <% end %>
-  <% end %>
-
-<br>
-<hr>
-<br>
-
-  <% @profession.attributes.each do |k,v| %>
-    <% unless k == "id" || k == "updated_at" || k == "created_at" %>
-      <li><%= k.titleize %>: <%= raw(v) %> </li>
-    <% end %>
-  <% end %>
-
-<br>
-<hr>
-<br>
-
-  <% @background.attributes.each do |k,v| %>
-    <% unless k == "id" || k == "updated_at" || k == "created_at" %>
-      <li><%= k.titleize %>: <%= raw(v) %> </li>
-    <% end %>
-  <% end %>
-
-  <div class="character_controls">
-    <%= link_to "All Characters", user_path(@current_user) %>
-    <%= link_to "Edit", edit_character_path( @character.id ) %>
-    <%= link_to "Delete Character", character_path( @character.id ), :method => :delete, :data => { :confirm => "Are you sure?"}%>
-  </div>

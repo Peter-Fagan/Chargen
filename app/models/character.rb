@@ -10,6 +10,7 @@
 #  updated_at    :datetime         not null
 #  collection_id :integer
 #  background_id :integer
+#  strdeco_id    :integer
 #
 
 class Character < ActiveRecord::Base

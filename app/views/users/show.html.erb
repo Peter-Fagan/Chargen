@@ -1,23 +1,27 @@
-<h1><%= @user.name %></h1>
+<div class="container">
 
-<ul>
-  <li><%= @user.email %></li>
-</ul>
+  <h1><%= @user.name %></h1>
 
-<% if @current_user && @current_user.id == @user.id %>
-  <div class="user_controls">
-    <%= link_to "Edit", edit_user_path( @user.id ) %>
-    <%= link_to "Delete Account", user_path( @user.id ), :method => :delete, :data => { :confirm => "Are you sure?"}%>
+  <ul>
+    <li><%= @user.email %></li>
+  </ul>
+
+  <% if @current_user && @current_user.id == @user.id %>
+    <div class="user_controls">
+      <%= link_to "Edit", edit_user_path( @user.id ) %>
+      <%= link_to "Delete Account", user_path( @user.id ), :method => :delete, :data => { :confirm => "Are you sure?"}%>
+    </div>
+  <% end %>
+
+  <!-- A list of all user mixtapes -->
+  <h3>Characters</h3>
+
+  <% @user.characters.each do |m| %>
+    <p><%= link_to( m.name, "/characters/#{m.id}") %></p>
+  <% end %>
+
+  <div class="character_controls">
+    <%= link_to "New Character", new_character_path() %>
   </div>
-<% end %>
 
-<!-- A list of all user mixtapes -->
-<h3>Characters</h3>
-
-<% @user.characters.each do |m| %>
-  <p><%= link_to( m.name, "/characters/#{m.id}") %></p>
-<% end %>
-
-<div class="character_controls">
-  <%= link_to "New Character", new_character_path() %>
 </div>
