@@ -49,7 +49,7 @@ class CharactersController < ApplicationController
 
     character = Character.find params[:id]
     character.destroy
-    redirect_to current_user
+    redirect_to @current_user
   end
 
   private
