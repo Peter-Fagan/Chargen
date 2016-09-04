@@ -14,7 +14,7 @@ br
   </div>
 
   <div class="col s4">
-    <h3>Attribute Bonus</h3>
+    <h3>Attr Bonus</h3>
 
     <% @strdeco.attributes.each do |k,v| %>
       <% if k == "str_bonus" || k == "dex_bonus" || k == "con_bonus" || k == "int_bonus" || k == "wis_bonus" || k == "cha_bonus" %>
@@ -82,4 +82,3 @@ br
     <%= link_to "Edit", edit_character_path( @character.id ) %>
     <%= link_to "Delete Character", character_path( @character.id ), :method => :delete, :data => { :confirm => "Are you sure?"}%>
   </div>
-  
