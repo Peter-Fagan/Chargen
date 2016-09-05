@@ -5,12 +5,17 @@ It is still a Work in Progress.
 This project was designed so that a player can create a 1st level character ready for play. There are still a number of elements that this program doesn't do yet befre that can happen.
 This project was created in my 6th week of my Web Development Immersive course.
 
+### Link
+
+https://dndcharactergen.herokuapp.com/
+
 ### Framework
 
 This application was built using:
 
 * Ruby 2.3.1
 * Rails 4.2.6
+* postgres 9.4
 * HTML
 * CSS
 * Materialize
@@ -38,9 +43,17 @@ With this program a User can create/edit a 1st level Dungeons and Dragons 5th ed
 
 Once the elements are selected, a character is created and their attributes are generated. Racial modifiers (ability_increases) are included in the generated attributes. Attributes can be re-generated using the "Reroll" button on the display page.
 
+### Database creation
+
+1. Bundle
+2. rake db:create
+3. rake db:migrate
+4. rake db:seed
+
 ### Bugs
 
 * Background elements random generation not working. I initially thought it would randomly generate a background once one was selected, but ti appears to only generate one when the seed is run.
+* formatting - adding in the materialize framework changed a lot of the previous formatting.
 
 ### Todo
 
