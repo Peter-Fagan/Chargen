@@ -14,13 +14,13 @@
   <br>
 
   <p>
-    <%= f.collection_radio_buttons(:profession_id, Profession.all, :id, :name) %>
+    <%= f.collection_radio_buttons(:profession_id, Profession.all, :id, :name, item_wrapper_class: :radiobutton) %>
   </p>
 
   <br>
 
   <p>
-    <%= f.collection_radio_buttons(:background_id, Background.all, :id, :name) %>
+    <%= f.collection_radio_buttons(:background_id, Background.all, :id, :name, item_wrapper_class: :radiobutton) %>
   </p>
 
   <%= f.submit "Submit" %>
