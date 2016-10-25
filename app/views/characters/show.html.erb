@@ -40,36 +40,36 @@ br
 <hr>
 <ul class="collapsible" data-collapsible="accordion">
   <li>
-    <div class="collapsible-header"><h3><%= @race.name %></h3></div>
+    <div class="collapsible-header"><h3><%= @race.name %></h3><h6>(Click to expand)</h6></div>
     <div class="collapsible-body">
       <p>
         <% @race.attributes.each do |k,v| %>
           <% unless k == "id" || k == "updated_at" || k == "created_at" || k == "name" || k == "ability_increases"%>
-          <%= k.titleize %>: <%= raw(v) %>
+          <h5><%= k.titleize %>:</h5> <%= raw(v) %>
           <% end %>
         <% end %>
       </p>
     </div>
   </li>
   <li>
-    <div class="collapsible-header"><h3><%= @profession.name %></h3></div>
+    <div class="collapsible-header"><h3><%= @profession.name %></h3><h6>(Click to expand)</h6></div>
     <div class="collapsible-body">
       <p>
         <% @profession.attributes.each do |k,v| %>
           <% unless k == "id" || k == "updated_at" || k == "created_at" || k == "name" %>
-          <%= k.titleize %>: <%= raw(v) %>
+          <h5><%= k.titleize %>:</h5> <%= raw(v) %>
           <% end %>
         <% end %>
       </p>
     </div>
   </li>
   <li>
-    <div class="collapsible-header"><h3><%= @background.name %></h3></div>
+    <div class="collapsible-header"><h3><%= @background.name %></h3><h6>(Click to expand)</h6></div>
     <div class="collapsible-body">
       <p>
         <% @background.attributes.each do |k,v| %>
           <% unless k == "id" || k == "updated_at" || k == "created_at" || k == "name" %>
-          <%= k.titleize %>: <%= raw(v) %>
+          <h5><%= k.titleize %>: </h5><%= raw(v) %>
           <% end %>
         <% end %>
       </p>
@@ -78,7 +78,7 @@ br
 </ul>
 
   <div class="character_controls">
-    <%= link_to "All Characters", user_path(@current_user) %>
-    <%= link_to "Edit", edit_character_path( @character.id ) %>
-    <%= link_to "Delete Character", character_path( @character.id ), :method => :delete, :data => { :confirm => "Are you sure?"}%>
+    <%= link_to "All Characters", user_path(@current_user), :style => 'color: #FFFFFF' %>
+    <%= link_to "Edit", edit_character_path( @character.id ), :style => 'color: #FFFFFF' %>
+    <%= link_to "Delete Character", character_path( @character.id ), :style => 'color: #FFFFFF', :method => :delete, :data => { :confirm => "Are you sure?"}%>
   </div>

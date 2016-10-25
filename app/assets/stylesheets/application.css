@@ -24,7 +24,7 @@ body {
 }
 
 nav {
-  background-color: skyblue;
+  background-color: grey;
   padding: 10px;
   border: 4px;
   height: auto;
@@ -39,7 +39,7 @@ nav {
 }
 
 .character_controls {
-  background-color: skyblue;
+  background-color: grey;
   padding: 10px;
   border: 4px;
   height: auto;
@@ -47,7 +47,7 @@ nav {
   max-width: 50%;
   display: inline-block;
   text-align: center;;
-  top: 0;
+  bottom: 0;
   left: 0;
   z-index: 100;
 }

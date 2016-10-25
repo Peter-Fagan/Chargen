@@ -1,13 +1,14 @@
 ## Dungeons and Dragons Character Generator
 
 This is a simple character generator for Dungeons and Dragons 5th edition.
-It is still a Work in Progress.
-This project was designed so that a player can create a 1st level character ready for play. There are still a number of elements that this program doesn't do yet befre that can happen.
-This project was created in my 6th week of my Web Development Immersive course.
+It is still a work in progress.
+This project was designed so that a player can create a 1st level character ready for play. There are still a number of elements that this program doesn't do yet before that can happen.
+This project was created in my 6th week of my Web Development Immersive course at General Assembly.
 
 ### Link
 
 https://dndcharactergen.herokuapp.com/
+
 
 ### Framework
 
@@ -24,13 +25,13 @@ This application was built using:
 
 I initially set up 7 Models
 
-* User
-* Collection
-* Character
-* Race
-* Profession
-* Background
-* Strdeco
+* User - login accounts
+* Collection - a list of characters the user has created
+* Character - the user created characters
+* Race - a collection of predefined races
+* Profession - a collection of predefined classes
+* Background - a collection of predefined backgrounds
+* Strdeco - the characters attributes
 
 ### Functionality
 
@@ -57,10 +58,9 @@ Once the elements are selected, a character is created and their attributes are 
 
 ### Todo
 
-* Fix the Background random generation (personality_traits, ideals, bonds, flaws) or set them up as user selectable tables.
 * Allow Profession to add the "start_prof_bonus" (which will be +2 for all classes) to the attributes noted in "saving_throw" (eg add 2 to the str_save for a fighter)
 * Create a new table for Skills and allow the Race, Profession and Background to modify which ones receive the proficiency bonus (on top of the attribute bonus eg. str_bonus)
-* Create an editable equipment list (or shopping cart) for the character, that will include the staring gear provided by the Profession and Background, as well as allowing the user to "Purchase" additional equipment.
+* Create an editable equipment list (or shopping cart) for the character, that will include the starting gear provided by the Profession and Background, as well as allowing the user to "Purchase" additional equipment.
 * Allow the user to import an image for the character.
-* Allow the user to export/print their characters.
+* Allow the user to export/print their character.
 * Do more styling on the visuals of the character generator
