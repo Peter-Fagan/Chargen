@@ -30,7 +30,7 @@ nav {
   height: auto;
   border-style: groove;
   max-width: 50%;
-  position: fixed;
+  position: absolute;
   display: inline-block;
   text-align: center;;
   top: 0;
@@ -59,4 +59,42 @@ nav {
 
 label {
   margin-right: 40px;
+}
+
+.racePopup {
+  width: 70%;
+  left: 50%;
+  top: 0;
+  font-size: 11px;
+  text-align: left;
+  vertical-align:middle;
+  background-color: cornflowerblue;
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+
+.profPopup {
+  width: 70%;
+  left: 50%;
+  top: 0;
+  font-size: 11px;
+  text-align: left;
+  vertical-align:middle;
+  background-color: green;
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+.bgPopup {
+  width: 70%;
+  left: 50%;
+  top: 0;
+  font-size: 11px;
+  text-align: left;
+  vertical-align:middle;
+  background-color: orange;
+  display: none;
+  position: absolute;
+  z-index: 10;
 }

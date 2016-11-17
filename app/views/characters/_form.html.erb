@@ -7,21 +7,30 @@
 
   <br>
 
-  <p>
+  <p id="raceInfo">
     <%= f.collection_radio_buttons(:race_id, Race.all, :id, :name) %>
   </p>
+  <% Race.all.each do |race| %>
+    <p class="racePopup" id= "race<%=race.id %>" > <%= race.description.html_safe %> </p>
+  <% end %>
 
   <br>
 
-  <p>
-    <%= f.collection_radio_buttons(:profession_id, Profession.all, :id, :name, item_wrapper_class: :radiobutton) %>
+  <p id="profInfo">
+    <%= f.collection_radio_buttons(:profession_id, Profession.all, :id, :name) %>
   </p>
+  <% Profession.all.each do |profession| %>
+    <p class="profPopup" id= "prof<%=profession.id %>" > <%= profession.description.html_safe %> </p>
+  <% end %>
 
   <br>
 
-  <p>
-    <%= f.collection_radio_buttons(:background_id, Background.all, :id, :name, item_wrapper_class: :radiobutton) %>
+  <p id="bgInfo">
+    <%= f.collection_radio_buttons(:background_id, Background.all, :id, :name) %>
   </p>
+  <% Background.all.each do |background| %>
+    <p class="bgPopup" id= "bg<%=background.id %>" > <%= background.description.html_safe %> </p>
+  <% end %>
 
   <%= f.submit "Submit" %>
 <% end %>
