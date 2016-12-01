@@ -65,10 +65,10 @@ label {
   width: 70%;
   left: 50%;
   top: 0;
-  font-size: 11px;
+  font-size: 12px;
   text-align: left;
   vertical-align:middle;
-  background-color: cornflowerblue;
+  background-color: darkgrey;
   display: none;
   position: absolute;
   z-index: 10;
@@ -78,10 +78,10 @@ label {
   width: 70%;
   left: 50%;
   top: 0;
-  font-size: 11px;
+  font-size: 12px;
   text-align: left;
   vertical-align:middle;
-  background-color: green;
+  background-color: darkgrey;
   display: none;
   position: absolute;
   z-index: 10;
@@ -90,10 +90,10 @@ label {
   width: 70%;
   left: 50%;
   top: 0;
-  font-size: 11px;
+  font-size: 12px;
   text-align: left;
   vertical-align:middle;
-  background-color: orange;
+  background-color: darkgrey;
   display: none;
   position: absolute;
   z-index: 10;

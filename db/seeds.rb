@@ -29,10 +29,7 @@ Race.destroy_all
 r1 = Race.create :name => "Hill Dwarf",
 :description => "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk. <br />
 Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully. <br />
-Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. For example, some of the oldest dwarves living in Citadel Felbarr (in the world of the Forgotten Realms) can recall the day, more than three centuries ago, when orcs conquered the fortress and drove them into an exile that lasted over 250 years. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack. <br />
-Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the founding of their most ancient strongholds in the youth of the world, and don't abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge. <br />
-Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf’s entire clan, so what begins as one dwarf’s hunt for vengeance can become a full-blown clan feud. <br/ >
-As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerun in their mighty southern kingdom are hill dwarves",
+As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.",
 :ability_increases => "Con:2,Wis:1",
 :age => "Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.",
 :alignment => "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
@@ -50,10 +47,7 @@ As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience
 r2 = Race.create :name => "Mountain Dwarf",
 :description => "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk. <br />
 Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully. <br />
-Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. For example, some of the oldest dwarves living in Citadel Felbarr (in the world of the Forgotten Realms) can recall the day, more than three centuries ago, when orcs conquered the fortress and drove them into an exile that lasted over 250 years. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack. <br />
-Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the founding of their most ancient strongholds in the youth of the world, and don't abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge. <br />
-Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf’s entire clan, so what begins as one dwarf’s hunt for vengeance can become a full-blown clan feud. <br/ >
-As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You’re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerun are mountain dwarves.",
+As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You’re probably on the tall side (for a dwarf), and tend toward lighter coloration.",
 :ability_increases => "Str:2,Con:2",
 :age => "Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.",
 :alignment => "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
@@ -70,9 +64,9 @@ As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in 
 
 r3 = Race.create :name => "High Elf",
 :description => "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world. <br />
-As a high elf, you have a keen mind and a mastery of at least the basics of magic. <br />
 With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 100 to 145 pounds. Males and females are about the same height, and males are only marginally heavier than females. <br />
-The sun elves of Faerun (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin som etim es tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.", :ability_increases => "Dex:2,Int:1",
+The sun elves of Faerun (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold. <br />
+As a high elf, you have a keen mind and a mastery of at least the basics of magic.", :ability_increases => "Dex:2,Int:1",
 :age => "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
 :alignment => "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.",
 :size => "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
@@ -89,9 +83,9 @@ The sun elves of Faerun (also called gold elves or sunrise elves) have bronze sk
 
 r4 = Race.create :name => "Wood Elf",
 :description => "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world. <br />
-As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. <br />
 With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 100 to 145 pounds. Males and females are about the same height, and males are only marginally heavier than females. <br />
-Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.",
+Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel. <br />
+As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. ",
 :ability_increases => "Dex:2,Wis:1",
 :age => "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
 :alignment => "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.",
@@ -106,14 +100,30 @@ Wood elves’ skin tends to be copperish in hue, sometimes with traces of green.
 -Elf Weapon Training. You have proficiency with the longsword, shortsword, shortbow, and longbow. <br />
 -Mask ofthe Wild. You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
 
-r5 = Race.create :name => "Lightfoot Halfling",
+r5 = Race.create :name => "Dark Elf (Drow)",
+:description => "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to
+evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. <br />
+With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just under 6 feet. They are more slender than humans, weighing only 80 to 125 pounds. Males and females are about the same height, and males are only marginally heavier than females. <br />
+Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves.",
+:ability_increases => "Dex:2,Cha:1",
+:age => "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+:alignment => "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.",
+:size => "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+:speed => "Fleet of Foot. Your base walking speed is 35 feet",
+:languages => "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+:features => " <br />
+-Superior Darkvision. Accustomed to the perpetual darkness underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray. <br />
+-Sunlight Sensitivity. You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight. <br />
+-Keen Senses. You have proficiency in the Perception skill. <br />
+-Fey Ancestry. You have advantage on saving throws against being charmed, and magic can’t put you to sleep. <br />
+-Trance. Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep. <br />
+-Drow Weapon Training. You have proficiency with rapiers, shortswords, and hand crossbows. <br />
+-Drow Magic. You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells."
+
+r6 = Race.create :name => "Lightfoot Halfling",
 :description => "The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife. They are inclined to be stout, weighing between 40 and 45 pounds. <br />
 Halflings’ skin ranges from tan to pale with a ruddy cast, and their hair is usually brown or sandy brown and wavy. They have brown or hazel eyes. Halfling men often sport long sideburns, but beards are rare among them and mustaches even more so. They like to wear simple, comfortable, and practical clothes, favoring bright colors. <br />
-Halfling practicality extends beyond their clothing. They’re concerned with basic needs and simple pleasures and have little use for ostentation. Even the wealthiest ofhalflings keep their treasures locked in a cellar rather than on display for all to see. They have a knack for finding the most straightforward solution to a problem, and have little patience for dithering. <br />
-Halflings are an affable and cheerful people. They cherish the bonds of family and friendship as well as the comforts of hearth and home, harboring few dreams of gold or glory. Even adventurers among them usually venture into the world for reasons of community, friendship, wanderlust, or curiosity. They love discovering new things, even simple things, such as an exotic food or an unfamiliar style of clothing. <br />
-Halflings are easily moved to pity and hate to see any living thing suffer. They are generous, happily sharing what they have even in lean times. <br />
-As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety.
-Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.",
+As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety. Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.",
 :ability_increases => "Dex:2,Cha:1",
 :age => "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
 :alignment => "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
@@ -126,28 +136,23 @@ Lightfoots are more prone to wanderlust than other halflings, and often dwell al
 -Halfling Nimbleness. You can move through the space of any creature that is of a size larger than yours. <br />
 -Naturally Stealthy. You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
 
-r6 = Race.create :name => "Stout Halfling",
+r7 = Race.create :name => "Stout Halfling",
 :description => "The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife. They are inclined to be stout, weighing between 40 and 45 pounds. <br />
 Halflings’ skin ranges from tan to pale with a ruddy cast, and their hair is usually brown or sandy brown and wavy. They have brown or hazel eyes. Halfling men often sport long sideburns, but beards are rare among them and mustaches even more so. They like to wear simple, comfortable, and practical clothes, favoring bright colors. <br />
-Halfling practicality extends beyond their clothing. They’re concerned with basic needs and simple pleasures and have little use for ostentation. Even the wealthiest ofhalflings keep their treasures locked in a cellar rather than on display for all to see. They have a knack for finding the most straightforward solution to a problem, and have little patience for dithering. <br />
-Halflings are an affable and cheerful people. They cherish the bonds of family and friendship as well as the comforts of hearth and home, harboring few dreams of gold or glory. Even adventurers among them usually venture into the world for reasons of community, friendship, wanderlust, or curiosity. They love discovering new things, even simple things, such as an exotic food or an unfamiliar style of clothing. <br />
-Halflings are easily moved to pity and hate to see any living thing suffer. They are generous, happily sharing what they have even in lean times. <br />
-As a stout halfling, you’re hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they’re most common
-in the south.",
+As a stout halfling, you’re hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they’re most common in the south.",
 :ability_increases => "Dex:2,Con:1",
 :age => "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
 :alignment => "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
 :size => "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
 :speed => "Your base walking speed is 25 feet.",
-:languages => "You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they
-are traveling.",
+:languages => "You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.",
 :features => " <br />
 -Lucky. When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. <br />
 -Brave. You have advantage on saving throws against being frightened. <br />
 -Halfling Nimbleness. You can move through the space of any creature that is of a size larger than yours. <br />
 -Stout Resilience. You have advantage on saving throws against poison, and you have resistance against poison damage."
 
-r7 = Race.create :name => "Human",
+r8 = Race.create :name => "Human",
 :description => "In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers and the pioneers of the worlds. <br />
 With their penchant for migration and conquest, humans are more physically diverse than other common races. There is no typical human. An individual can stand from 5 feet to a little over 6 feet tall and weigh from 125 to 250 pounds. Human skin shades range from nearly black to very pale, and hair colors from black to blond (curly, kinky, or straight); males might sport facial hair that is sparse or thick. A lot of humans have a dash of nonhuman blood, revealing hints of elf, orc,or other lineages. Humans reach adulthood in their late teens and rarely live even a single century.",
 :ability_increases => "Str:1,Dex:1,Con:1,Int:1,Wis:1,Cha:1",
@@ -157,13 +162,11 @@ With their penchant for migration and conquest, humans are more physically diver
 :languages => "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.",
 :features => "No additional Features"
 
-r8 = Race.create :name => "Dragonborn",
+r9 = Race.create :name => "Dragonborn",
 :description => "Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life. <br />
-Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance. Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6 1/2 feet tall and weighing 300 pounds or more. Their hands and feet are strong, talonlike claws with three fingers and a thumb on each hand. <br />
-The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor—bright red, green, blue, or white, lustrous black, or gleaming metallic gold, silver, brass, copper, or bronze. <br />
-To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonborn’s conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position. <br />
-A continual drive for self-improvement reflects the self-sufficiency of the race as a whole. Dragonborn value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. A dragonborn holds mastery of a particular skill as a lifetime goal. Members of other races who share the same commitment find it easy to earn the respect of a dragonborn. <br />
-Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a clan needs help, it turns to another dragonborn clan before seeking aid from other races— or even from the gods.",
+Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance. <br />
+Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6 1/2 feet tall and weighing 300 pounds or more. Their hands and feet are strong, talonlike claws with three fingers and a thumb on each hand. <br />
+The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor—bright red, green, blue, or white, lustrous black, or gleaming metallic gold, silver, brass, copper, or bronze.",
 :ability_increases => "Str:2,Cha:1",
 :age => "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.",
 :alignment => "Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains.",
@@ -190,15 +193,9 @@ Red : Fire : 15 ft. cone (Dex. save) <br />
 Silver : Cold : 15 ft. cone (Con. save) <br />
 White : Cold : 15 ft. cone (Con. save)"
 
-r9 = Race.create :name => "Forest Gnome",
-:description => "A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close - knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play. <br />
-A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body. Gnomes average slightly over 3 feet tall and weigh 40 to 45 pounds. Their tan or brown faces are usually adorned with broad smiles (beneath their prodigious noses), and their bright eyes shine with excitement. Their fair hair has a tendency to stick out in every direction, as if expressing the gnome’s insatiable interest in everything around. <br />
+r10 = Race.create :name => "Forest Gnome",
+:description => "A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body. Gnomes average slightly over 3 feet tall and weigh 40 to 45 pounds. Their tan or brown faces are usually adorned with broad smiles (beneath their prodigious noses), and their bright eyes shine with excitement. Their fair hair has a tendency to stick out in every direction, as if expressing the gnome’s insatiable interest in everything around. <br />
 A gnome’s personality is writ large in his or her appearance. A male gnome’s beard, in contrast to his wild hair, is kept carefully trimmed but often styled into curious forks or neat points. A gnome’s clothing, though usually made in modest earth tones, is elaborately decorated with embroidery, embossing, or gleaming jewels. <br />
-As far as gnomes are concerned, being alive is a wonderful thing, and they squeeze every ounce of enjoyment out of their three to five centuries of life. Humans might wonder about getting bored over the course of such a long life, and elves take plenty of time to savor the beauties of the world in their long years, but gnomes seem to worry that even with all that time, they can’t get in enough of the things they want to do and see. <br />
-Gnomes speak as if they can’t get the thoughts out of their heads fast enough. Even as they offer ideas and opinions on a range of subjects, they still manage to listen carefully to others, adding the appropriate exclamations of surprise and appreciation along the way. <br />
-Though gnomes love jokes of all kinds, particularly puns and pranks, they’re just as dedicated to the more serious tasks they undertake. Many gnomes are skilled engineers, alchemists, tinkers, and inventors. They’re willing to make mistakes and laugh at themselves in the process of perfecting what they do, taking bold (sometimes foolhardy) risks and dreaming large. <br />
-Gnomes make their homes in hilly, wooded lands. They live underground but get more fresh air than dwarves do, enjoying the natural, living world on the surface whenever they can. Their homes are well hidden by both clever construction and simple illusions. Welcome visitors are quickly ushered into the bright, warm burrows. Those who are not welcome are unlikely to find the burrows in the first place. <br />
-Curious and impulsive, gnomes might take up adventuring as a way to see the world or for the love of exploring. As lovers of gems and other fine items, some gnomes take to adventuring as a quick, if dangerous, path to wealth. Regardless of what spurs them to adventure, gnomes who adopt this way of life eke as much enjoyment out of it as they do out of any other activity they undertake, sometimes to the great annoyance of their adventuring companions. <br />
 As a forest gnome, you have a natural knack for illusion and inherent quickness and stealth. In the worlds of D&D, forest gnomes are rare and secretive. They gather in hidden communities in sylvan forests, using illusions and trickery to conceal themselves from threats or to mask their escape should they be detected. Forest gnomes tend to be friendly with other good-spirited woodland folk, and they regard elves and good fey as their most important allies. These gnomes also befriend small forest animals and rely on them for information about threats that might prowl their lands.",
 :ability_increases => "Int:2,Dex:1",
 :age => "Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
@@ -212,15 +209,9 @@ As a forest gnome, you have a natural knack for illusion and inherent quickness 
 -Natural Illusionist. You know the minor illusion cantrip. Intelligence is your spellcasting ability for it. <br />
 -Speak with Small Beasts. Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
 
-r10 = Race.create :name => "Rock Gnome",
-:description => "A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close - knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play. <br />
-A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body. Gnomes average slightly over 3 feet tall and weigh 40 to 45 pounds. Their tan or brown faces are usually adorned with broad smiles (beneath their prodigious noses), and their bright eyes shine with excitement. Their fair hair has a tendency to stick out in every direction, as if expressing the gnome’s insatiable interest in everything around. <br />
+r11 = Race.create :name => "Rock Gnome",
+:description => "A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body. Gnomes average slightly over 3 feet tall and weigh 40 to 45 pounds. Their tan or brown faces are usually adorned with broad smiles (beneath their prodigious noses), and their bright eyes shine with excitement. Their fair hair has a tendency to stick out in every direction, as if expressing the gnome’s insatiable interest in everything around. <br />
 A gnome’s personality is writ large in his or her appearance. A male gnome’s beard, in contrast to his wild hair, is kept carefully trimmed but often styled into curious forks or neat points. A gnome’s clothing, though usually made in modest earth tones, is elaborately decorated with embroidery, embossing, or gleaming jewels. <br />
-As far as gnomes are concerned, being alive is a wonderful thing, and they squeeze every ounce of enjoyment out of their three to five centuries of life. Humans might wonder about getting bored over the course of such a long life, and elves take plenty of time to savor the beauties of the world in their long years, but gnomes seem to worry that even with all that time, they can’t get in enough of the things they want to do and see. <br />
-Gnomes speak as if they can’t get the thoughts out of their heads fast enough. Even as they offer ideas and opinions on a range of subjects, they still manage to listen carefully to others, adding the appropriate exclamations of surprise and appreciation along the way. <br />
-Though gnomes love jokes of all kinds, particularly puns and pranks, they’re just as dedicated to the more serious tasks they undertake. Many gnomes are skilled engineers, alchemists, tinkers, and inventors. They’re willing to make mistakes and laugh at themselves in the process of perfecting what they do, taking bold (sometimes foolhardy) risks and dreaming large. <br />
-Gnomes make their homes in hilly, wooded lands. They live underground but get more fresh air than dwarves do, enjoying the natural, living world on the surface whenever they can. Their homes are well hidden by both clever construction and simple illusions. Welcome visitors are quickly ushered into the bright, warm burrows. Those who are not welcome are unlikely to find the burrows in the first place. <br />
-Curious and impulsive, gnomes might take up adventuring as a way to see the world or for the love of exploring. As lovers of gems and other fine items, some gnomes take to adventuring as a quick, if dangerous, path to wealth. Regardless of what spurs them to adventure, gnomes who adopt this way of life eke as much enjoyment out of it as they do out of any other activity they undertake, sometimes to the great annoyance of their adventuring companions. <br />
 As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes. Most gnomes in the worlds of D&D are rock gnomes, including the tinker gnomes of the Dragonlance setting.",
 :ability_increases => "Int:2,Con:1",
 :age => "Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
@@ -238,13 +229,10 @@ Clockwork Toy.This toy is a clockwork animal, monster, or person, such as a frog
 Fire Starter. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action. <br />
 Music Box. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed."
 
-r11 = Race.create :name => "Half Elf",
+r12 = Race.create :name => "Half Elf",
 :description => "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. <br />
-Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. Others live with the elves, growing restless as they reach adulthood in the timeless elven realms, while their peers continue to live as children. Many half-elves, unable to fit into either society, choose lives of solitary wandering or join with other misfits and outcasts in the adventuring life. <br />
 To humans, half-elves look like elves, and to elves, they look human. In height, they’re on par with both parents, though they’re neither as slender as elves nor as broad as humans. They range from under 5 feet to about 6 feet tall, and from 100 to 180 pounds, with men only slightly taller and heavier than women. <br />
-Half-elf men do have facial hair, and sometimes grow beards to mask their elven ancestry. Half-elven coloration and features lie somewhere between their human and elf parents, and thus show a variety even more pronounced than that found among either race. They tend to have the eyes of their elven parents. <br />
-Half-elves have no lands of their own, though they are welcome in human cities and somewhat less welcome in elven forests. In large cities in regions where elves and humans interact often, half-elves are sometimes numerous enough to form small communities of their own. They enjoy the company of other half-elves, the only people who truly understand what it is to live between these two worlds. <br />
-In most parts of the world, though, half-elves are uncommon enough that one might live for years without meeting another. Some half-elves prefer to avoid company altogether, wandering the wilds as trappers, foresters, hunters, or adventurers and visiting civilization only rarely. Like elves, they are driven by the wanderlust that comes of their longevity. Others, in contrast, throw themselves into the thick of society, putting their charisma and social skills to great use in diplomatic roles or as swindlers.",
+Half-elf men do have facial hair, and sometimes grow beards to mask their elven ancestry. Half-elven coloration and features lie somewhere between their human and elf parents, and thus show a variety even more pronounced than that found among either race. They tend to have the eyes of their elven parents.",
 :ability_increases => "Cha:2",
 :age => "Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.",
 :alignment => "Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others’ demands, and sometimes prove unreliable, or at least unpredictable.",
@@ -257,12 +245,9 @@ In most parts of the world, though, half-elves are uncommon enough that one migh
 -Skill Versatility. You gain proficiency in two skills of your choice. <br />
 -Ability Scores. Choose 2 Ability scores (other than Charisma) to increase by 1"
 
-r12 = Race.create :name => "Half-Orc",
+r13 = Race.create :name => "Half-Orc",
 :description => "Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human tribes sometimes form alliances, joining forces into a larger horde to the terror of civilized lands nearby. When these alliances are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud chiefs of orc tribes, their human blood giving them an edge over their full blooded orc rivals. Some venture into the world to prove their worth among humans and other more civilized races. Many of these become adventurers, achieving greatness for their mighty deeds and notoriety for their barbaric customs and savage fury. <br />
 Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see. Half-orcs stand between 6 and 7 feet tall and usually weigh between 180 and 250 pounds. <br />
-Orcs regard battle scars as tokens of pride and ornamental scars as things of beauty. Other scars, though, mark an orc or half-orc as a former slave or a disgraced exile. Any half-orc who has lived among or near orcs has scars, whether they are marks of humiliation or of pride, recounting their past exploits and injuries. Such a half-orc living among humans might display these scars proudly or hide them in shame. <br />
-The one eyed god Gruumsh created the orcs, and even those orcs who turn away from his worship can’t fully escape his influence. The same is true of half-orcs, though their human blood moderates the impact of their orcish heritage. Some half-orcs hear the whispers of Gruumsh in their dreams, calling them to unleash the rage that simmers within them. Others feel Gruumsh’s exultation when they join in melee combat and either exult along with him or shiver with fear and loathing. Half-orcs are not evil by nature, but evil does lurk within them, whether they embrace it or rebel against it. <br />
-Beyond the rage of Gruumsh, half-orcs feel emotion powerfully. Rage doesn’t just quicken their pulse, it makes their bodies burn. An insult stings like acid, and sadness saps their strength. But they laugh loudly and heartily, and simple bodily pleasures—feasting, drinking, wrestling, drumming, and wild dancing fill their hearts with joy. They tend to be short tempered and sometimes sullen, more inclined to action than contemplation and to fighting than arguing. The most accomplished half-orcs are those with enough self-control to get by in a civilized land. <br />
 Half-orcs most often live among orcs. Of the other races, humans are most likely to accept half-orcs, and half-orcs almost always live in human lands when not living among orc tribes. Whether proving themselves among rough barbarian tribes or scrabbling to survive in the slums of larger cities, half-orcs get by on their physical might, their endurance, and the sheer determination they inherit from their human ancestry.",
 :ability_increases => "Str:2,Con:1",
 :age => "Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
@@ -276,11 +261,10 @@ Half-orcs most often live among orcs. Of the other races, humans are most likely
 -Relentless Endurance. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest. <br />
 -Savage Attacks. When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit."
 
-r13 = Race.create :name => "Tiefling",
+r14 = Race.create :name => "Tiefling",
 :description => "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable. <br />
-Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes: some have curling horns like a ram, others have straight and tall horns like a gazelle’s, and some spiral upward like an antelopes’ horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors—black, red, white, silver, or gold—with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple. <br />
-Tieflings subsist in small minorities found mostly in human cities or towns, often in the roughest quarters of those places, where they grow up to be swindlers, thieves, or crime lords. Sometimes they live among other minority populations in enclaves where they are treated with more respect. <br />
-Lacking a homeland, tieflings know that they have to make their own way in the world and that they have to be strong to survive. They are not quick to trust anyone who claims to be a friend, but when a tiefling’s companions demonstrate that they trust him or her, the tiefling learns to extend the same trust to them. And once a tiefling gives someone loyalty, the tiefling is a firm friend or ally for life.",
+Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. <br />
+Tieflings have large horns that take any of a variety of shapes: some have curling horns like a ram, others have straight and tall horns like a gazelle’s, and some spiral upward like an antelopes’ horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors—black, red, white, silver, or gold—with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple.",
 :ability_increases => "Int:1,Cha:2",
 :age => "Tieflings mature at the same rate as humans but
 live a few years longer.",
@@ -309,8 +293,7 @@ Profession.destroy_all
 c1 = Profession.create :name => "Barbarian",
 :description => "People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one’s own nature was a mark of superiority. To a barbarian, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature- keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the wilds of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt. <br />
 Barbarians come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A barbarian can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise. <br />
-Not every member of the tribes deemed “barbarians” by scions of civilized society has the barbarian class. A true barbarian among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Barbarians charge headlong into that danger so that their people don’t have to. <br />
-Their courage in the face of danger makes barbarians perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a barbarian. Som e barbarians miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties.",
+Their courage in the face of danger makes barbarians perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a barbarian. Some barbarians miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties.",
 :hit_dice => "d12",
 :saving_throw => "Strength, Constitution",
 :prof_skills => "Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival",
@@ -335,9 +318,6 @@ c2 = Profession.create :name => "Bard",
 :description => "In the worlds of D&D, words and music are not just vibrations of air, but vocalizations with power all their own. The bard is a master of song, speech, and the magic they contain. Bards say that the multiverse was spoken into existence, that the words of the gods gave it shape, and that echoes of these primordial Words of Creation still resound throughout the cosmos. The music of bards is an attempt to snatch and harness those echoes, subtly woven into their spells and powers. <br />
 The greatest strength of bards is their sheer versatility. Many bards prefer to stick to the sidelines in combat, using their magic to inspire their allies and hinder their foes from a distance. But bards are capable of defending themselves in melee if necessary, using their magic to bolster their swords and armor. Their spells lean toward charms and illusions rather than blatantly destructive spells. <br />
 They have a wide-ranging knowledge of many subjects and a natural aptitude that lets them do almost anything well. Bards become masters of the talents they set their minds to perfecting, from musical performance to esoteric knowledge. <br />
-True bards are not common in the world. Not every minstrel singing in a tavern or jester cavorting in a royal court is a bard. Discovering the magic hidden in music requires hard study and some measure of natural talent that most troubadours and jongleurs lack. It can be hard to spot the difference between these performers and true bards, though. <br />
-A bard’s life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But a depth of knowledge, a level of musical skill, and a touch of magic set bards apart from their fellows. <br />
-Only rarely do bards settle in one place for long, and their natural desire to travel—to find new tales to tell, new skills to learn, and new discoveries beyond the horizon—makes an adventuring career a natural calling. <br />
 Every adventure is an opportunity to learn, practice a variety of skills, enter long-forgotten tombs, discover lost works of magic, decipher old tomes, travel to strange places, or encounter exotic creatures. Bards love to accompany heroes to witness their deeds firsthand. A bard who can tell an awe-inspiring story from personal experience earns renown among other bards. Indeed, after telling so many stories about heroes accomplishing mighty deeds, many bards take these themes to heart and assume heroic roles themselves.",
 :hit_dice => "d8",
 :saving_throw => "Dexterity, Charisma",
@@ -365,11 +345,8 @@ You can use this feature a number of times equal to your Charisma modifier (a mi
 c3 = Profession.create :name => "Cleric",
 :description => "Clerics are intermediaries between the mortal world and the distant planes of the gods. As varied as the gods they serve, clerics strive to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with divine magic. <br />
 Divine magic, as the name suggests, is the power of the gods, flowing from them into the world. Clerics are conduits for that power, manifesting it as miraculous effects. The gods don’t grant this power to everyone who seeks it, but only to those chosen to fulfill a high calling. <br />
-Harnessing divine magic doesn’t rely on study or training. A cleric might learn formulaic prayers and ancient rites, but the ability to cast cleric spells relies on devotion and an intuitive sense of a deity’s wishes. <br />
 Clerics combine the helpful magic of healing and inspiring their allies with spells that harm and hinder foes. They can provoke awe and dread, lay curses of plague or poison, and even call down flames from heaven to consume their enemies. For those evildoers who will benefit most from a mace to the head, clerics depend on their combat training to let them wade into melee with the power of the gods on their side. <br />
-Not every acolyte or officiant at a temple or shrine is a cleric. Some priests are called to a simple life of temple service, carrying out their gods’ will through prayer and sacrifice, not by magic and strength of arms. In some cities, priesthood amounts to a political office, viewed as a stepping stone to higher positions of authority and involving no communion with a god at all. True clerics are rare in most hierarchies. <br />
-When a cleric takes up an adventuring life, it is usually because his or her god demands it. Pursuing the goals of the gods often involves braving dangers beyond the walls of civilization, smiting evil or seeking holy relics in ancient tombs. Many clerics are also expected to protect their deities’ worshipers, which can mean fighting rampaging orcs, negotiating peace between warring nations, or sealing a portal that would allow a demon prince to enter the world. <br />
-Most adventuring clerics maintain some connection to established temples and orders of their faiths. A temple might ask for a cleric’s aid, or a high priest might be in a position to demand it.",
+When a cleric takes up an adventuring life, it is usually because his or her god demands it. Pursuing the goals of the gods often involves braving dangers beyond the walls of civilization, smiting evil or seeking holy relics in ancient tombs. Many clerics are also expected to protect their deities’ worshipers, which can mean fighting rampaging orcs, negotiating peace between warring nations, or sealing a portal that would allow a demon prince to enter the world.",
 :hit_dice => "d8",
 :saving_throw => "Wisdom, Charisma",
 :prof_skills => "Choose two from History, Insight, Medicine, Persuasion, and Religion", :start_hit_points => "8",
@@ -392,9 +369,7 @@ Spell attack modifier = your proficiency bonus + your Wisdom modifier. <br />
 c4 = Profession.create :name => "Druid",
 :description => "Druids revere nature above all, gaining their spells and other magical powers either from the force of nature itself or from a nature deity. Many druids pursue a mystic spirituality of transcendent union with nature rather than devotion to a divine entity, while others serve gods of wild nature, animals, or elemental forces. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines. <br />
 Druid spells are oriented toward nature and animals — the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some druids make a particular study of this practice, even to the point where they prefer animal form to their natural form. <br />
-For druids, nature exists in a precarious balance. The four elements that make up a world—air, earth, fire, and water—must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others. <br />
-Druids are also concerned with the delicate ecological balance that sustains plant and animal life, and the need for civilized folk to live in harmony with nature, not in opposition to it. Druids accept that which is cruel in nature, and they hate that which is unnatural, including aberrations (such as beholders and mind flayers) and undead (such as zombies and vampires). Druids som etim es lead raids against such creatures, especially when the monsters encroach on the druids’ territory. <br />
-Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature’s balance or the lands they protect, druids take on a more active role in combating the threat, as adventurers.",
+For druids, nature exists in a precarious balance. The four elements that make up a world—air, earth, fire, and water—must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
 :hit_dice => "d8",
 :saving_throw => "Intelligence, Wisdom",
 :prof_skills => "Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival.",
@@ -416,8 +391,9 @@ Spell attack modifier = your proficiency bonus + your Wisdom modifier. <br />
 • Leather armor, an explorer’s pack, and a druidic focus"
 
 c5 = Profession.create :name => "Fighter",
-:description => "Fighters learn the basics of all combat styles. Every fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, use a bow, and even trap foes in a net with some degree of skill. Likewise, a fighter is adept with shields and every form of armor. Beyond that basic degree of familiarity, each fighter specializes in a certain style of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad general ability and extensive specialization makes fighters superior combatants
-on battlefields and in dungeons alike.",
+:description => "Fighters learn the basics of all combat styles. Every fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, use a bow, and even trap foes in a net with some degree of skill. Likewise, a fighter is adept with shields and every form of armor. <brr />
+Beyond that basic degree of familiarity, each fighter specializes in a certain style of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad general ability and extensive specialization makes fighters superior combatants on battlefields and in dungeons alike. <br />
+Some fighters feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a fighter, not all that different from the life he or she left behind. There are greater risks, perhaps, but also much greater rewards",
 :hit_dice => "d10",
 :saving_throw => "Strength and Constitution or Dexterity",
 :prof_skills => "Blacksmith, animal handling",
@@ -440,9 +416,6 @@ Fighting Style: You adopt a particular style of fighting as your specialty. Choo
 c6 = Profession.create :name => "Monk",
 :description => "Monks make careful study of a magical energy that most monastic traditions call ki. This energy is an element of the magic that suffuses the multiverse—specifically, the element that flows through living bodies. Monks harness this power within themselves to create magical effects and exceed their bodies' physical capabilities, and some of their special attacks can hinder the flow of ki in their opponents. <br />
 Using this energy, monks channel uncanny speed and strength into their unarmed strikes. As they gain experience, their martial training and their mastery of ki gives them more power over their bodies and the bodies of their foes. <br />
-Small walled cloisters dot the landscapes of the worlds of D&D, tiny refuges from the flow of ordinary life, where time seems to stand still. The monks who live there seek personal perfection through contemplation and rigorous training. Many entered the monastery as children, sent to live there when their parents died, when food couldn’t be found to support them, or in return for some kindness that the monks had performed for their families. <br />
-Some monks live entirely apart from the surrounding population, secluded from anything that might impede their spiritual progress. Others are sworn to isolation, emerging only to serve as spies or at the command of their leader, a noble patron, or some other mortal or divine power. <br />
-The majority of monks don’t shun their neighbors, making frequent visits to nearby towns or villages and exchanging their service for food and other goods. As versatile warriors, monks often end up protecting their neighbors from monsters or tyrants. <br />
 For a monk, becoming an adventurer means leaving a structured, communal lifestyle to become a wanderer. This can be a harsh transition, and monks don’t undertake it lightly. Those who leave their cloisters take their work seriously, approaching their adventures as personal tests of their physical and spiritual growth. <br />
 As a rule, monks care little for material wealth and are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering their treasure.",
 :hit_dice => "d8",
@@ -466,7 +439,6 @@ Certain monasteries use specialized forms of the monk weapons. For example, you 
 c7 = Profession.create :name => "Paladin",
 :description => "A paladin swears to uphold justice and righteousness, to stand with the good things of the world against the encroaching darkness, and to hunt the forces of evil wherever they lurk. Different paladins focus on various aspects of the cause of righteousness, but all are bound by the oaths that grant them power to do their sacred work. Although many paladins are devoted to gods of good, a paladin’s power comes as much from a commitment to justice itself as it does from a god. <br />
 Paladins train for years to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield: power to heal the sick and injured, to smite the wicked and the undead, and to protect the innocent and those who join them in the fight for justice. <br />
-Almost by definition, the life of a paladin is an adventuring life. Unless a lasting injury has taken him or her away from adventuring for a time, every paladin lives on the front lines of the cosmic struggle against evil. Fighters are rare enough among the ranks of the militias and armies of the world, but even fewer people can claim the true calling of a paladin. When they do receive the call, these warriors turn from their former occupations and take up arms to fight evil. Sometimes their oaths lead them into the service of the crown as leaders of elite groups of knights, but even then their loyalty is first to the cause of righteousness, not to crown and country. <br />
 Adventuring paladins take their work seriously. A delve into an ancient ruin or dusty crypt can be a quest driven by a higher purpose than the acquisition of treasure. Evil lurks in dungeons and primeval forests, and even the smallest victory against it can tilt the cosmic balance away from oblivion.",
 :hit_dice => "d10",
 :saving_throw => "Wisdom, Charisma",
@@ -490,8 +462,8 @@ This feature has no effect on undead and constructs.",
 c8 = Profession.create :name => "Ranger",
 :description => "Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization—humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes. <br />
 Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature’s power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger’s talents and abilities are honed with deadly focus on the grim task of protecting the borderlands. <br />
-Though a ranger might make a living as a hunter, a guide, or a tracker, a ranger’s true calling is to defend the outskirts of civilization from the ravages of monsters and humanoid hordes that press in from the wild. In som e places, rangers gather in secretive orders or join forces with druidic circles. Many rangers, though, are independent almost to a fault, knowing that, when a dragon or a band of orcs attacks, a ranger might be the first—and possibly the last—line of defense. <br />
-This fierce independence makes rangers well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, rangers respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization’s foes are worth any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways.",
+Though a ranger might make a living as a hunter, a guide, or a tracker, a ranger’s true calling is to defend the outskirts of civilization from the ravages of monsters and humanoid hordes that press in from the wild. Many rangers are independent almost to a fault, knowing that, when a dragon or a band of orcs attacks, a ranger might be the first—and possibly the last—line of defense. <br />
+This fierce independence makes rangers well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, rangers respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization’s foes are worth any extra burden.",
 :hit_dice => "d10",
 :saving_throw => "Strength, Dexterity",
 :prof_skills => "Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival",
@@ -524,8 +496,6 @@ c9 = Profession.create :name => "Rogue",
 Many rogues focus on stealth and deception, while others refine the skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks. <br />
 When it comes to combat, rogues prioritize cunning over brute strength. A rogue would rather make one precise strike, placing it exactly where the attack will hurt the target most, than wear an opponent down with a barrage of attacks. <br />
 Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities. <br />
-Every town and city has its share of rogues. Most of them live up to the worst stereotypes of the class, making a living as burglars, assassins, cutpurses, and con artists. Often, these scoundrels are organized into thieves’ guilds or crime families. Plenty of rogues operate independently, but even they sometimes recruit apprentices to help them in their scams
-and heists. A few rogues make an honest living as locksmiths, investigators, or exterminators, which can be a dangerous job in a world where dire rats—and wererats—haunt the sewers. <br />
 As adventurers, rogues fall on both sides of the law. Some are hardened criminals who decide to seek their fortune in treasure hoards, while others take up a life of adventure to escape from the law. Some have learned and perfected their skills with the explicit purpose of infiltrating ancient ruins and hidden crypts in search of treasure.",
 :hit_dice => "d8",
 :saving_throw => "Dexterity, Intelligence",
@@ -544,11 +514,8 @@ As adventurers, rogues fall on both sides of the law. Some are hardened criminal
 c10 = Profession.create :name => "Sorcerer",
 :description => "Magic is a part of every sorcerer, suffusing body, mind, and spirit with a latent power that waits to be tapped. Some sorcerers wield magic that springs from an ancient bloodline infused with the magic of dragons. Others carry a raw, uncontrolled magic within them, a chaotic storm that manifests in unexpected ways. The appearance of sorcerous powers is wildly unpredictable. <br />
 Some draconic bloodlines produce exactly one sorcerer in every generation, but in other lines of descent every individual is a sorcerer. Most of the time, the talents of sorcery appear as apparent flukes. Some sorcerers can’t name the origin of their power, while others trace it to strange events in their own lives. The touch of a demon, the blessing of a dryad at a baby’s birth, or a taste of the water from a mysterious spring might spark the gift of sorcery. So too might the gift of a deity of magic, exposure to the elemental forces of the Inner Planes or the maddening chaos of Limbo, or a glimpse into the inner workings of reality. <br />
-Sorcerers have no use for the spellbooks and ancient tomes of magic lore that wizards rely on, nor do they rely on a patron to grant their spells as warlocks do. <br />
-By learning to harness and channel their own inborn magic, they can discover new and staggering ways to unleash that power. <br />
-Sorcerers are rare in the world, and it’s unusual to find a sorcerer who is not involved in the adventuring life in some way. People with magical power seething in their veins soon discover that the power doesn’t like to stay quiet. A sorcerer’s magic wants to be wielded, and it has a tendency to spill out in unpredictable ways if it isn’t called on. <br />
-Sorcerers often have obscure or quixotic motivations driving them to adventure. Some seek a greater understanding of the magical force that infuses them, or the answer to the mystery of its origin. Others hope to find a way to get rid of it, or to unleash its full potential. <br />
-Whatever their goals, sorcerers are every bit as useful to an adventuring party as wizards, making up for a comparative lack of breadth in their magical knowledge with enormous flexibility in using the spells they know.",
+Sorcerers have no use for the spellbooks and ancient tomes of magic lore that wizards rely on, nor do they rely on a patron to grant their spells as warlocks do. By learning to harness and channel their own inborn magic, they can discover new and staggering ways to unleash that power. <br />
+Sorcerers often have obscure or quixotic motivations driving them to adventure. Some seek a greater understanding of the magical force that infuses them, or the answer to the mystery of its origin. Others hope to find a way to get rid of it, or to unleash its full potential.",
 :hit_dice => "d6",
 :saving_throw => "Constitution, Charisma",
 :prof_skills => "Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion",
@@ -571,7 +538,6 @@ Spell attack modifier = your proficiency bonus + your Charisma modifier. <br />
 c11 = Profession.create :name => "Warlock",
 :description => "A warlock is defined by a pact with an otherworldly being. Sometimes the relationship between warlock and patron is like that of a cleric and a deity, though the beings that serve as patrons for warlocks are not gods. A warlock might lead a cult dedicated to a demon prince, an archdevil, or an utterly alien entity—beings not typically served by clerics. More often, though, the arrangement is similar to that between a master and an apprentice. The warlock learns and grows in power, at the cost of occasional services performed on the patron’s behalf. <br />
 The magic bestowed on a warlock ranges from minor but lasting alterations to the warlock's being (such as the ability to see in darkness or to read any language) to access to powerful spells. Unlike bookish wizards, warlocks supplement their magic with some facility at hand-to-hand combat. They are comfortable in light armor and know how to use simple weapons. <br />
-Warlocks are driven by an insatiable need for knowledge and power, which compels them into their pacts and shapes their lives. This thirst drives warlocks into their pacts and shapes their later careers as well. <br //>
 Stories of warlocks binding themselves to fiends are widely known. But many warlocks serve patrons that are not fiendish. Sometimes a traveler in the wilds comes to a strangely beautiful tower, meets its fey lord or lady, and stumbles into a pact without being fully aware of it. And sometimes, while poring over tomes of forbidden lore, a brilliant but crazed student’s mind is opened to realities beyond the material world and to the alien beings that dwell in the outer void. <br />
 Once a pact is made, a warlock’s thirst for knowledge and power can’t be slaked with mere study and research. No one makes a pact with such a mighty patron if he or she doesn’t intend to use the power thus gained. Rather, the vast majority of warlocks spend their days in active pursuit of their goals, which typically means some kind of adventuring. Furthermore, the demands of their patrons drive warlocks toward adventure.",
 :hit_dice => "d8",
@@ -597,7 +563,6 @@ c12 = Profession.create :name => "Wizard",
 :description => "Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds. <br />
 Though the casting of a typical spell requires merely the utterance of a few strange words, fleeting gestures, and sometimes a pinch or clump of exotic materials, these surface components barely hint at the expertise attained after years of apprenticeship and countless hours of study. <br />
 Wizards live and die by their spells. Everything else is secondary. They learn new spells as they experiment and grow in experience. They can also learn them from other wizards, from ancient tomes or inscriptions, and from ancient creatures (such as the fey) that are steeped in magic. <br />
-Wizards’ lives are seldom mundane. The closest a wizard is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. Other wizards sell their services as diviners, serve in military forces, or pursue lives of crime or domination. <br />
 But the lure of knowledge and power calls even the most unadventurous wizards out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.",
 :hit_dice => "d6",
 :saving_throw => "Intelligence, Wisdom",
@@ -637,12 +602,11 @@ Background.destroy_all
 # :flaw => ""
 
 b1 = Background.create :name => "Acolyte",
-:description => "You have spent your life in the service of a temple to a specific god or pantheon of gods.<br />
-You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine.<br />
-You are not necessarily a cleric - performing sacred rites is not the same thing as channeling divine power.<br />
-Choose a god, a pantheon of gods, or some other quasi-divine being and work with your DM to detail the nature of your religious service.<br />
-Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites?<br />
-Or were you a high priest who suddenly experienced a call to serve your god in a different way?<br />
+:description => "You have spent your life in the service of a temple to a specific god or pantheon of gods. <br />
+You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. <br />
+You are not necessarily a cleric - performing sacred rites is not the same thing as channeling divine power. <br />
+Choose a god, a pantheon of gods, or some other quasi-divine being and work with your DM to detail the nature of your religious service. <br />
+Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? <br />
 Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.",
 :background_skills => "Insight, Religion",
 :background_languages => "Two of your choice",
@@ -681,29 +645,29 @@ While near your temple, you can call upon the priests for assistance, provided t
 6. Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
 
 b2 = Background.create :name => "Charlatan",
-:description => "You have always had a way with people.<br />
-You know what makes them tick, you can tease out their hearts' desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books.<br />
+:description => "You have always had a way with people. <br />
+You know what makes them tick, you can tease out their hearts' desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books. <br />
 It’s a useful talent, and one that you’re perfectly willing to use for your advantage.
 You know what people want and you deliver, or rather, you promise to deliver.
-Common sense should steer people away from things that sound too good to be true, but common sense seems to be in short supply when you’re around.<br />
+Common sense should steer people away from things that sound too good to be true, but common sense seems to be in short supply when you’re around. <br />
 The bottle of pink-colored liquid will surely cure that unseemly rash, this ointment—nothing more than a bit of fat with a sprinkle of silver dust—can
-restore youth and vigor, and there’s a bridge in the city that just happens to be for sale.<br />
-These marvels sound implausible, but you make them sound like the real deal.<br />
+restore youth and vigor, and there’s a bridge in the city that just happens to be for sale. <br />
+These marvels sound implausible, but you make them sound like the real deal.",
+:background_skills => "Deception, Sleight of Hand, Proficiency with Disguise Kit, Forgery Kit",
+:background_languages => "",
+:background_equipment => "A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt pouch containing 15 gp", :feature => "False Identity. <br />
+You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. <br />
+Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy." ,
+:characteristics => "Charlatans are colorful characters who conceal their true selves behind the masks they construct. <br />
+They reflect what people want to see, what they want to believe, and how they see the world. <br />
+But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues. <br />
 Every charlatan has an angle he or she uses in preference to other schemes. <br />
 1. I cheat at games of chance. <br />
 2. I shave coins or forge documents. <br />
 3. I insinuate myself into people’s lives to prey on their weakness and secure their fortunes. <br />
 4. I put on new identities like clothes. <br />
 5. I run sleight-of-hand cons on street corners. <br />
-6. I convince people that worthless junk is worth their hard-earned money.",
-:background_skills => "Deception, Sleight of Hand, Proficiency with Disguise Kit, Forgery Kit",
-:background_languages => "",
-:background_equipment => "A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt pouch containing 15 gp", :feature => "False Identity.<br />
-You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona.<br />
-Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy." ,
-:characteristics => "Charlatans are colorful characters who conceal their true selves behind the masks they construct.<br />
-They reflect what people want to see, what they want to believe, and how they see the world.<br />
-But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues." ,
+6. I convince people that worthless junk is worth their hard-earned money." ,
 :personality_trait =>
 "1. I fall in and out of love easily, and am always pursuing someone. <br />
 2. I have a joke for every occasion, especially occasions where humor is inappropriate. <br />
@@ -734,12 +698,18 @@ But their true selves are sometimes plagued by an uneasy conscience, an old enem
 
 b3 = Background.create :name => "Criminal",
 :description => "You are an experienced criminal with a history of breaking the law.<br />
-You have spent a lot of time among other criminals and still have contacts within the criminal underworld.<br />
+You have spent a lot of time among other criminals and still have contacts within the criminal underworld. <br />
 You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society. <br />
-Variant: Spy.<br />
+Variant: Spy. <br />
 Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent.
-You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder.<br />
-There are many kinds of criminals, and within a thieves’ guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. <br />
+You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder. <br />
+There are many kinds of criminals, and within a thieves’ guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others.",
+:background_skills => "Deception, Stealth, Proficiency with one type of gaming set, thieves’ tools",
+:background_languages => "",
+:background_equipment => "A crowbar, a set of dark common clothes including a hood, and a belt pouch containing 15 GP",
+:feature => "Criminal contact. <br />
+You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you.",
+:characteristics => "Criminals might seem like villains on the surface, and many of them are villainous to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but criminals rarely show any respect for law or authority. <br />
 There are many kinds of criminals, and within a thieves’ guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. <br />
 1. Blackmailer. <br />
 2. Burglar. <br />
@@ -749,12 +719,6 @@ There are many kinds of criminals, and within a thieves’ guild or similar crim
 6. Hired killer. <br />
 7. Pickpocket. <br />
 8. Smuggler.",
-:background_skills => "Deception, Stealth, Proficiency with one type of gaming set, thieves’ tools",
-:background_languages => "",
-:background_equipment => "A crowbar, a set of dark common clothes including a hood, and a belt pouch containing 15 GP",
-:feature => "Criminal contact.<br />
-You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you.",
-:characteristics => "Criminals might seem like villains on the surface, and many of them are villainous to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but criminals rarely show any respect for law or authority.",
 :personality_trait => "1. I always have a plan for what to do when things go wrong.<br />
 2. I am always calm, no matter what the situation. I never raise my voice or let my emotions control me. <br />
 3. The first thing I do in a new place is note the locations of everything valuable or where such things could be hidden. <br />
@@ -784,7 +748,13 @@ You have a reliable and trustworthy contact who acts as your liaison to a networ
 
 b4 = Background.create :name => "Entertainer", :description => "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. <br />
 Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. <br />
-Whatever techniques you use, your art is your life. <br />
+Whatever techniques you use, your art is your life.",
+:background_skills => "Acrobatics, Performance, Proficient in Disguise kit, one type of musical instrument",
+:background_languages => "Proficient in Disguise kit, one type of musical instrument",
+:background_equipment => "A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), a costume, and a belt pouch containing 15 gp",
+:feature => "By Popular Demand. <br />
+You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.",
+:characteristics => "Successful entertainers have to be able to capture and hold an audience’s attention, so they tend to have flamboyant or forceful personalities. They’re inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty. <br />
 A good entertainer is versatile, spicing up every performance with a variety of different routines. <br />
 1. Actor. <br />
 2. Dancer. <br />
@@ -796,12 +766,6 @@ A good entertainer is versatile, spicing up every performance with a variety of 
 8. Singer. <br />
 9. Storyteller. <br />
 10. Tumbler.",
-:background_skills => "Acrobatics, Performance, Proficient in Disguise kit, one type of musical instrument",
-:background_languages => "Proficient in Disguise kit, one type of musical instrument",
-:background_equipment => "A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), a costume, and a belt pouch containing 15 gp",
-:feature => "By Popular Demand <br />
-You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.",
-:characteristics => "Successful entertainers have to be able to capture and hold an audience’s attention, so they tend to have flamboyant or forceful personalities. They’re inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty.",
 :personality_trait => "1. I know a story relevant to almost every situation. <br />
 2. Whenever Icome to a new place, Icollect local rumors and spread gossip. <br />
 3. I’m a hopeless romantic, always searching for that special someone. <br />
@@ -830,7 +794,13 @@ You can always find a place to perform, usually in an inn or tavern but possibly
 6. Despite my best efforts, I am unreliable to my friends."
 
 b5 = Background.create :name => "Folk Hero",
-:description => "You com e from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere. <br />
+:description => "You com e from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere. ",
+:background_skills => "Animal Handling, Survival, Proficient in one type of artisan’s tools, vehicles (land)",
+:background_languages => "",
+:background_equipment => "A set of artisan’s tools (one of your choice), a shovel, an iron pot, a set of common clothes, and a belt pouch containing 10 gp",
+:feature => "Rustic Hospitality. <br />
+Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.",
+:characteristics => "A folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them. <br />
 You previously pursued a simple profession among the peasantry, perhaps as a farmer, miner, servant, shepherd, woodcutter, or gravedigger. But something happened that set you on a different path and marked you for greater things. <br />
 1. I stood up to a tyrant’s agents. <br />
 2. I saved people during a natural disaster. <br />
@@ -842,12 +812,6 @@ You previously pursued a simple profession among the peasantry, perhaps as a far
 8. A lord rescinded an unpopular decree after I led a symbolic act of protect against it. <br />
 9. A celestial, fey, or similar creature gave me a blessing or revealed my secret origin. <br />
 10. Recruited into a lord’s army, I rose to leadership and was commended for my heroism.",
-:background_skills => "Animal Handling, Survival, Proficient in one type of artisan’s tools, vehicles (land)",
-:background_languages => "",
-:background_equipment => "A set of artisan’s tools (one of your choice), a shovel, an iron pot, a set of common clothes, and a belt pouch containing 10 gp",
-:feature => "Rustic Hospitality. <br />
-Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.",
-:characteristics => "A folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.",
 :personality_trait => "1. I judge people by their actions, not their words. <br />
 2. If someone is in trouble, I’m always ready to lend help. <br />
 3. When I set my mind to something, I follow through no matter what gets in my way. <br />
@@ -877,27 +841,7 @@ Since you come from the ranks of the common folk, you fit in among them with eas
 
 b6 = Background.create :name => "Guild Artisan",
 :description => "You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right. <br />
-Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. You can select your guild business from the Guild Business table or roll randomly. <br />
-1. Alchemists and apothecaries. <br />
-2. Armorers, locksmiths, and finesmiths. <br />
-3. Brewers, distillers, and vintners. <br />
-4. Calligraphers, scribes, and scriveners. <br />
-5. Carpenters, roofers, and plasterers. <br />
-6. Cartographers, surveyors, and chart-makers. <br />
-7. Cobblers and shoemakers. <br />
-8. Cooks and bakers. <br />
-9. Glassblowers and glaziers. <br />
-10. Jewelers and gemcutters. <br />
-11. Leatherworkers, skinners, and tanners. <br />
-12. Masons and stonecutters. <br />
-13. Painters, limners, and sign-makers. <br />
-14. Potters and tile-makers. <br />
-15. Shipwrights and sailmakers. <br />
-16. Smiths and metal-forgers. <br />
-17. Tinkers, pewterers, and casters. <br />
-18. Wagon-makers and wheelwrights. <br />
-19. Weavers and dyers. <br />
-20. Woodcarvers, coopers, and bowyer. <br />
+Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. <br />
 As a member of your guild, you know the skills needed to create finished items from raw materials (reflected in your proficiency with a certain kind of artisan’s tools), as well as the principles of trade and good business practices. The question now is whether you abandon your trade for adventure, or take on the extra effort to weave adventuring and trade together. <br />
 Variant: Guild Merchant. <br />
 Instead of an artisans’ guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant’s life lends itself to adventure far more than the life of an artisan. <br />
@@ -909,7 +853,29 @@ Rather than proficiency with artisan’s tools, you might be proficient with nav
 As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings. <br />
 Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild’s coffers. <br />
 You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild’s good graces.",
-:characteristics => "Guild artisans are among the most ordinary people in the world—until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they’re vulnerable to sins of greed and covetousness.",
+:characteristics => "Guild artisans are among the most ordinary people in the world—until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they’re vulnerable to sins of greed and covetousness. <br />
+Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. You can select your guild business from the Guild Business table or roll randomly. <br />
+d20 Guild Business
+1 Alchemists and apothecaries <br />
+2 Armorers, locksmiths, and finesmiths <br />
+3 Brewers, distillers, and vintners <br />
+4 Calligraphers, scribes, and scriveners <br />
+5 Carpenters, roofers, and plasterers <br />
+6 Cartographers, surveyors, and chart-makers <br />
+7 Cobblers and shoemakers <br />
+8 Cooks and bakers <br />
+9 Glassblowers and glaziers <br />
+10 Jewelers and gemcutters <br />
+11 Leatherworkers, skinners, and tanners <br />
+12 Masons and stonecutters <br />
+13 Painters, limners, and sign-makers <br />
+14 Potters and tile-makers <br />
+15 Shipwrights and sailmakers <br />
+16 Smiths and metal-forgers <br />
+17 Tinkers, pewterers, and casters <br />
+18 Wagon-makers and wheelwrights <br />
+19 Weavers and dyers <br />
+20 Woodcarvers, coopers, and bowyers",
 :personality_trait => "1. I believe that anything worth doing is worth doing right. I can’t help it — I’m a perfectionist. <br />
 2. I’m a snob who looks down on those who can’t appreciate fine art. <br />
 3. I always want to know how things work and what makes people tick. <br />
@@ -939,16 +905,6 @@ You must pay dues of 5 gp per month to the guild. If you miss payments, you must
 
 b7 = Background.create :name => "Hermit",
 :description => "You lived in seclusion—either in a sheltered community such as a monastery, or entirely alone—for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for. <br />
-Life of Seclusion. <br />
-What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your DM to determine the exact nature of your seclusion, or you can choose or roll on the table below to determine the reason behind your seclusion. <br />
-1. I was searching for spiritual enlightenment. <br />
-2. I was partaking of communal living in accordance with the dictates of a religious order. <br />
-3. I was exiled for a crime I didn’t commit. <br />
-4. I retreated from society after a life-altering event. <br />
-5. I needed a quiet place to work on my art, literature, music, or manifesto. <br />
-6. I needed to commune with nature, farfrom civilization. <br />
-7. I was the caretaker of an ancient ruin or relic. <br />
-8. I was a pilgrim in search of a person, place, or relic of spiritual significance. <br />
 Other Hermits. <br />
 This hermit background assumes a contemplative sort of seclusion that allows room for study and prayer. If you want to play a rugged wilderness recluse who lives off the land while shunning the company of other people, look at the outlander background. On the other hand, if you want to go in a more religious direction, the acolyte might be what you’re looking for. Or you could even be a charlatan, posing as a wise and holy person and letting pious fools support you.",
 :background_skills => "Medicine, Religion, Herbalism kit",
@@ -959,7 +915,16 @@ The quiet seclusion of your extended hermitage gave you access to a unique and p
 The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. <br />
 You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society. <br />
 Work with your DM to determine the details of your discovery and its impact on the campaign.",
-:characteristics => "Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. A few are driven slightly mad by their years apart from society.",
+:characteristics => "Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. A few are driven slightly mad by their years apart from society. <br />
+What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your DM to determine the exact nature of your seclusion, or you can choose or roll on the table below to determine the reason behind your seclusion. <br />
+1. I was searching for spiritual enlightenment. <br />
+2. I was partaking of communal living in accordance with the dictates of a religious order. <br />
+3. I was exiled for a crime I didn’t commit. <br />
+4. I retreated from society after a life-altering event. <br />
+5. I needed a quiet place to work on my art, literature, music, or manifesto. <br />
+6. I needed to commune with nature, farfrom civilization. <br />
+7. I was the caretaker of an ancient ruin or relic. <br />
+8. I was a pilgrim in search of a person, place, or relic of spiritual significance. <br />",
 :personality_trait => "1. I’ve been isolated for so long that I rarely speak, preferring gestures and the occasional grunt. <br />
 2. I am utterly serene, even in the face of disaster. <br />
 3. The leader of my community had something wise to say on every topic, and I am eager to share that wisdom. <br />
@@ -988,13 +953,10 @@ Work with your DM to determine the details of your discovery and its impact on t
 6. I like keeping secrets and won’t share them with anyone."
 
 b8 = Background.create :name => "Noble",
-:description => "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated
-to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them. <br />
-Work with your DM to come up with an appropriate title and determine how much authority that title carries. A noble title doesn’t stand on its own—it’s connected to an entire family, and whatever title you hold, you will pass it down to your own children. Not only do you need to determine your noble title, but you should also work with the DM to describe your family and their influence on you. <br />
+:description => "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them. <br />
 Is your family old and established, or was your title only recently bestowed? How much influence do they wield, and over what area? What kind of reputation does your family have among the other aristocrats of the region? How do the common people regard them? <br />
 What’s your position in the family? Are you the heir to the head of the family? Have you already inherited the title? How do you feel about that responsibility? Or are you so far down the line of inheritance that no one cares what you do, as long as you don’t embarrass the family? How does the head of your family feel about your adventuring career? Are you in your family’s good graces, or shunned by the rest of your family? <br />
 Does your family have a coat of arms? An insignia you might wear on a signet ring? Particular colors you wear all the time? An animal you regard as a symbol of your line or even a spiritual member of the family? <br />
-These details help establish your family and your title as features of the world of the campaign. <br />
 Variant Noble: Knight. <br />
 A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature instead of the Position of Privilege feature. <br />
 One of your commoner retainers is replaced by a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood. Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on). <br />
@@ -1039,7 +1001,13 @@ b9 = Background.create :name => "Outlander",
 :description => "You grew up in the wilds, far from civilization and the comforts of town and technology. <br />
 You’ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. <br />
 The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild. <br />
-You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. <br />
+You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. ",
+:background_skills => "Athletics, Survival, One type of musical instrument",
+:background_languages => "One of your choice",
+:background_equipment => "A staff, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a belt pouch containing 10 gp",
+:feature => "Wanderer. <br />
+You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries,smallgame,water,andsoforth.",
+:characteristics => "Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders. <br />
 You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character. <br />
 1. Forester. <br />
 2. Trapper. <br />
@@ -1051,12 +1019,6 @@ You can roll on the following table to determine your occupation during your tim
 8. Tribal nomad. <br />
 9. Hunter-gatherer. <br />
 10. Tribal marauder.",
-:background_skills => "Athletics, Survival, One type of musical instrument",
-:background_languages => "One of your choice",
-:background_equipment => "A staff, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a belt pouch containing 10 gp",
-:feature => "Wanderer. <br />
-You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries,smallgame,water,andsoforth.",
-:characteristics => "Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.",
 :personality_trait => "1. I’m driven by a wanderlust that led me away from home. <br />
 2. I watch over my friends as ifthey were a litter of newborn pups. <br />
 3. I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I’d do it again if I had to. <br />
@@ -1085,8 +1047,13 @@ You have an excellent memory for maps and geography, and you can always recall t
 6. Don’t expect me to save those who can’t save themselves. It is nature’s way that the strong thrive and the weak perish."
 
 b10 = Background.create :name => "Sage",
-:description => "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study. <br />
-Specialty. <br />
+:description => "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study. ",
+:background_skills => "Arcana, History",
+:background_languages => "Two of your choice",
+:background_equipment => "A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of com m on clothes, and a belt pouch containing 10 gp",
+:feature => "Researcher. <br />
+When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information com es from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.",
+:characteristics => "Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly— sometimes in its own right, sometimes as a means toward other ideals. <br />
 To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below. <br />
 1. Alchemist. <br />
 2. Astronomer. <br />
@@ -1096,12 +1063,6 @@ To determine the nature of your scholarly training, roll a d8 or choose from the
 6. Researcher. <br />
 7. Wizard’s apprentice. <br />
 8. Scribe.",
-:background_skills => "Arcana, History",
-:background_languages => "Two of your choice",
-:background_equipment => "A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of com m on clothes, and a belt pouch containing 10 gp",
-:feature => "Researcher. <br />
-When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information com es from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.",
-:characteristics => "Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly— sometimes in its own right, sometimes as a means toward other ideals.",
 :personality_trait => "1. I use polysyllabic words that convey the impression of great erudition. <br />
 2. I've read every book in the world’s greatest libraries — or I like to boast that I have. <br />
 3. I'm used to helping out those who aren’t as smart as I am, and I patiently explain anything and everything to others. <br />
@@ -1175,7 +1136,15 @@ No matter where you go, people are afraid of you due to your reputation. When yo
 
 b12 = Background.create :name => "Soldier",
 :description => "War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. <br />
-You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war. When you choose this background, work with your DM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career.Wasitastandingarmy,atownguard,oravillage militia? Or it might have been a noble’s or merchant’s private army, or a mercenary company. <br />
+You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war. When you choose this background, work with your DM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career.Wasitastandingarmy,atownguard,oravillage militia? Or it might have been a noble’s or merchant’s private army, or a mercenary company. ",
+:background_skills => "Athletics, Intimidation, Proficient with one type of gaming set,
+vehicles (land)",
+:background_languages => "",
+:background_equipment => "An insignia of rank, a trophy taken from
+a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dice or deck of cards, a set of com m on clothes, and a belt pouch containing 10 gp",
+:feature => "Military Rank. <br />
+You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.",
+:characteristics => "The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred. <br />
 During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role: <br />
 1. Officer. <br />
 2. Scout. <br />
@@ -1185,14 +1154,6 @@ During your time as a soldier, you had a specific role to play in your unit or a
 6. Quartermaster. <br />
 7. Standard bearer. <br />
 8. Support staff (cook, blacksmith, or the like)",
-:background_skills => "Athletics, Intimidation, Proficient with one type of gaming set,
-vehicles (land)",
-:background_languages => "",
-:background_equipment => "An insignia of rank, a trophy taken from
-a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dice or deck of cards, a set of com m on clothes, and a belt pouch containing 10 gp",
-:feature => "Military Rank. <br />
-You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.",
-:characteristics => "The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.",
 :personality_trait => "1. I'm always polite and respectful. <br />
 2. I’m haunted by memories o f war. I can’t get the images of violence out of my mind. <br />
 3. I’ve lost too many friends, and I’m slow to make new ones. <br />
