@@ -611,12 +611,12 @@ Perhaps you were the leader of a small cult outside of any established temple st
 :background_skills => "Insight, Religion",
 :background_languages => "Two of your choice",
 :background_equipment => "A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a belt pouch containing 15 gp",
-:feature => "Shelter of the Faithful.<br />
-As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity.<br />
-You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells.<br />
+:feature => "Shelter of the Faithful. <br />
+As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. <br />
+You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. <br />
 Those who share your religion will support you (but only you) at a modest lifestyle.
-You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there.<br />
-This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home.<br />
+You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. <br />
+This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. <br />
 While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.", :characteristics => "Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.", :personality_trait => "1. I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example. <br />
 2. I can find common ground between the fiercest enemies, empathizing with them and always working towards peace. <br />
 3. I see omens in every event and action. The gods try to speak to us, we just need to listen. <br />
@@ -1006,7 +1006,7 @@ You've been to strange places and seen things that others cannot begin to fathom
 :background_languages => "One of your choice",
 :background_equipment => "A staff, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a belt pouch containing 10 gp",
 :feature => "Wanderer. <br />
-You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries,smallgame,water,andsoforth.",
+You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, smallgame, water, and so forth.",
 :characteristics => "Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders. <br />
 You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character. <br />
 1. Forester. <br />
@@ -1119,7 +1119,7 @@ No matter where you go, people are afraid of you due to your reputation. When yo
 2. Fairness. We all do the work, so we all share in the rewards. <br />
 3. Freedom. The sea is freedom — the freedom to go anywhere and do anything. <br />
 4. Mastery. I’m a predator, and the other ships on the sea are my prey. <br />
-5. People. I’m committed to my crewmates, not to ideals. <br />
+5. People. I’m committed to my crew mates, not to ideals. <br />
 6. Aspiration. Someday I’ll own my own ship and chart my own destiny.",
 :bond => "1. I’m loyal to my captain first, everything else second. <br />
 2. The ship is most important — crewmates and captains come and go. <br />
@@ -1136,7 +1136,7 @@ No matter where you go, people are afraid of you due to your reputation. When yo
 
 b12 = Background.create :name => "Soldier",
 :description => "War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. <br />
-You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war. When you choose this background, work with your DM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career.Wasitastandingarmy,atownguard,oravillage militia? Or it might have been a noble’s or merchant’s private army, or a mercenary company. ",
+You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war. When you choose this background, work with your DM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career. Was it a standing army, a townguard, or a village militia? Or it might have been a noble’s or merchant’s private army, or a mercenary company. ",
 :background_skills => "Athletics, Intimidation, Proficient with one type of gaming set,
 vehicles (land)",
 :background_languages => "",
@@ -1160,7 +1160,7 @@ During your time as a soldier, you had a specific role to play in your unit or a
 4. I’m full of inspiring and cautionary tales from my military experience relevant to almost every combat situation. <br />
 5. I can stare down a hell hound without flinching. <br />
 6. I enjoy being strong and like breaking things. <br />
-7. I have a crude sense o f humor. <br />
+7. I have a crude sense of humor. <br />
 8. I face problems head-on. A simple, direct solution is the best path to success.",
 :ideal => "1. Greater Good. Our lot is to lay down our lives in defense of others. <br />
 2. Responsibility. I do what I must and obey just authority. <br />
